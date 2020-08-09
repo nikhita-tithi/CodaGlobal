@@ -1,3 +1,5 @@
+import { mockData } from "../mockData";
+
 const initialState = {
   isLoading: false,
   data: [],
@@ -17,7 +19,13 @@ export const recipeReducer = (state = initialState, action) => {
         filteredData: action.payload,
       };
     case "GET_RECIPES_LIST_ERROR":
-      return { ...state, isLoading: false, error: action.payload };
+      return {
+        ...state,
+        isLoading: false,
+        error: action.payload,
+        data: mockData, // Adding mockdata as API is failing in hosted environment due to CORS issue
+        filteredData: mockData,
+      };
     case "UPDATE_FILTERED_DATA":
       return { ...state, filteredData: action.payload };
     default:
