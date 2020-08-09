@@ -8,7 +8,7 @@ const generateRandomNumber = (min, max) => {
 export function* requestRecipiesList() {
   try {
     const response = yield fetch(
-      "https://cors-anywhere.herokuapp.com/http://starlord.hackerearth.com/recipe"
+      "https://test123.free.beeceptor.com/my/api/test123"
     )
       .then((data) => data.json())
       .then((json) => {
