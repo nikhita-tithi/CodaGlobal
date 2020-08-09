@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CodaGlobal/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/CodaGlobal/static/js/main.6cfa4586.chunk.js",
+    "main.js.map": "/CodaGlobal/static/js/main.6cfa4586.chunk.js.map",
+    "runtime-main.js": "/CodaGlobal/static/js/runtime-main.54cceeb8.js",
+    "runtime-main.js.map": "/CodaGlobal/static/js/runtime-main.54cceeb8.js.map",
+    "static/css/2.11829350.chunk.css": "/CodaGlobal/static/css/2.11829350.chunk.css",
+    "static/js/2.1288686b.chunk.js": "/CodaGlobal/static/js/2.1288686b.chunk.js",
+    "static/js/2.1288686b.chunk.js.map": "/CodaGlobal/static/js/2.1288686b.chunk.js.map",
+    "index.html": "/CodaGlobal/index.html",
+    "precache-manifest.ec73e7041bb723d4d127296146556895.js": "/CodaGlobal/precache-manifest.ec73e7041bb723d4d127296146556895.js",
+    "service-worker.js": "/CodaGlobal/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/CodaGlobal/static/css/2.11829350.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/CodaGlobal/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.1288686b.chunk.js.LICENSE.txt": "/CodaGlobal/static/js/2.1288686b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54cceeb8.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.1288686b.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.6cfa4586.chunk.js"
+  ]
+}
