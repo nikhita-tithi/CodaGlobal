@@ -7,9 +7,7 @@ const generateRandomNumber = (min, max) => {
 
 export function* requestRecipiesList() {
   try {
-    const response = yield fetch(
-      "https://test123.free.beeceptor.com/my/api/test123"
-    )
+    const response = yield fetch("http://starlord.hackerearth.com/recipe")
       .then((data) => data.json())
       .then((json) => {
         return json.map((obj) => ({
